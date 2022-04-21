@@ -6,7 +6,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  <!-- - [Screenshot](#screenshot)
+  <!-- - [Screenshot](#screenshot) -->
   - [Links](#links)
 <!-- - [My process](#my-process)
   - [Built with](#built-with)
@@ -14,7 +14,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources) -->
 - [Author](#author)
-<!-- - [Acknowledgments](#acknowledgments) --> -->
+<!-- - [Acknowledgments](#acknowledgments) -->
 
 ## Overview
 
@@ -37,14 +37,13 @@ Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to t
 
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.** -->
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://anq92.github.io/interactive-rating-component-main/](https://anq92.github.io/interactive-rating-component-main/)
 
-## My process
+<!-- ## My process
 
 ### Built with
 
