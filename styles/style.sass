@@ -1,5 +1,16 @@
 @use 'colors'
 
+body
+    margin: 0
+    background-color: colors.$background
+
+main
+    font-family: 'Overpass'
+    min-height: 95vh
+    display: flex
+    justify-content: center
+    align-items: center
+    margin: 0
 
 h1
     color: colors.$large_font
@@ -11,36 +22,39 @@ h1
 .feedback_request, .message
     color: colors.$paragraph
 
-.state1
-    display: none
+.feedback_request
+    margin-bottom: 0
+
+.hide-content
+    *
+        display: none
+    >
+        .numbers
+            display: none
+        .circle
+            display: none
 
 .submit
     background-color: colors.$submit_button
     border: none
     height: clamp(2.4rem, 10.5vw, 3rem)
-    margin: 5% 8% 8% 8%
+    margin: 0% 8% 8% 8%
     border-radius: 1.56rem
     font-family: 'Overpass'
     text-transform: uppercase
     color: colors.$submit_button_text
+    cursor: pointer
 
-.submit span
-
-
-body
-    margin: 0
-    background-color: colors.$background
-main
-    font-family: 'Overpass'
-    min-height: 95vh
-    display: flex
-    justify-content: center
-    align-items: center
-    margin: 0
-    
 .numbers
+    width: 84%
+    height: 15%
     display: flex
+    padding: 0 8% 0 8%
     justify-content: space-between
+    align-items: center
+
+    .circle
+        cursor: pointer
 
 .circle
     display: flex
@@ -50,9 +64,6 @@ main
     height: clamp(2.4rem, 10.5vw, 3rem)
     width: clamp(2.4rem, 10.5vw, 3rem)
     border-radius: clamp(1.2rem, 5.25vw, 1.5rem)
-
-.notHovered
-    background-color: colors.$numbers_circle
     color: colors.$numbers
 
 .hovered
@@ -62,7 +73,8 @@ main
 .rated
     background-color: colors.$circle_active
     color: colors.$circle_text_active
-.star 
+
+.star
     background-image: url("../images/icon-star.svg")
     background-repeat: no-repeat
     background-position: center
@@ -76,21 +88,24 @@ main
     max-width: clamp(16rem, 80vw, 25.75rem)
     height: 412px
     border-radius: 30px
+    >
+        *
+            margin-left: 8%
+            margin-right: 8%
 
-.container_after
+    .numbers
+        margin-left: 0%
+        margin-right: 0%
+
+.container-after
     align-items: center
 
-.container > *
-    margin-left: 8%
-    margin-right: 8%
-
-.attribution 
-    font-size: 11px 
+.attribution
+    font-size: 11px
     text-align: center
+    a
+        color: hsl(228, 45%, 44%)
 
-.attribution a  
-    color: hsl(228, 45%, 44%)
-    
 .submit:hover
     background-color: colors.$button_hover
     color: colors.$submit_button_text_hover
@@ -113,4 +128,3 @@ main
 
 footer
     color: colors.$numbers
-
