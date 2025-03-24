@@ -41,7 +41,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Live Site URL: [https://anq92.github.io/interactive-rating-component-main/](https://anq92.github.io/interactive-rating-component-main/)
+- Live Site URL: [https://annawilczura.github.io/interactive-rating-component-main/](https://annawilczura.github.io/interactive-rating-component-main/)
 
 <!-- ## My process
 
